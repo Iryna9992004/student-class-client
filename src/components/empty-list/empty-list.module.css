@@ -1,0 +1,13 @@
+.title__container{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:24vh;
+}
+
+.text{
+    color:gray;
+    text-align: center;
+    font-size: 30px;
+}

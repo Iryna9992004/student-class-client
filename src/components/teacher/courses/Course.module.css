@@ -1,0 +1,114 @@
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:60px;
+    margin-top:40px;
+}
+.homework__input{
+    margin-top:20px;
+    width:59vw;
+    margin-bottom:15px;
+    padding:15px;
+    font-size:16px;
+    border-radius:6px;
+    border:1px solid lightgray;
+}
+.homework__input1{
+    margin-top:5px;
+    width: 100%;
+    margin-bottom:5px;
+    padding:15px;
+    font-size:16px;
+    border-radius:6px;
+    border:1px solid lightgray;
+}
+.homework__put1{
+    margin-top:5px;
+    width:100%;
+    margin-bottom:15px;
+    padding:15px;
+    font-size:16px;
+    border-radius:6px;
+    border:1px solid rgb(211, 211, 211);
+}
+.homework__put{
+    margin-top:0px;
+    width:59vw;
+    margin-bottom:15px;
+    padding:15px;
+    font-size:16px;
+    border-radius:6px;
+    border:1px solid lightgray;
+}
+.shedule__text{
+    height:fit-content;
+    box-shadow: #cacaca 0 10px 20px -10px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 18px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    border:1px solid rgb(227, 227, 227);
+    border-radius: 6px;
+    margin-bottom:10px;
+}
+.shedule__button{
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+.homework__item{
+    padding:15px 25px 15px 25px;
+    background: #fbfcff;
+    border-radius:6px;
+    margin-top:10px;
+    border:1px dashed #aabac0;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    transition:2s on ease;
+}
+.homework__item:hover{
+    background: #f0f2f5;
+    border:1px dashed #8b989d;
+}
+.add__options1{
+    display:flex;
+    width:58vw;
+    flex-direction: column;
+    align-items:center;
+}
+.course__list{
+    margin-top: 25px;
+    width:59vw;
+    height:fit-content;
+}
+.homework__course{
+    font-weight:600;
+    margin-bottom:10px;
+}
+.icon__down{
+    color:#aabac0;
+    font-size:55px;
+    cursor:pointer;
+    transition: 2s on ease;
+}
+.icon__down:hover{
+    color:#808e93;
+}

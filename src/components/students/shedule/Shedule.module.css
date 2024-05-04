@@ -1,0 +1,103 @@
+.shedule__container{
+    margin-top: 24px;
+    width:58vw;
+}
+.icon__down{
+    color:#aabac0;
+    font-size:25px;
+    cursor:pointer;
+    transition: 2s on ease;
+}
+.icon__down:hover{
+    color:#798184;
+}
+.shedule__list{
+    width:58vw;
+    height:fit-content;
+    margin-top:100px;
+    margin:auto;
+    margin-bottom:120px;
+}
+.shedule__item{
+    padding:15px 25px 15px 25px;
+    background: #f3f8fa;
+    border-radius:6px;
+    margin-top:10px;
+    border:1px dashed #aabac0;
+}
+.star{
+    color:rgb(139, 139, 173);
+    margin-left:10px;
+    margin-right:10px;
+}
+.shedule_date{
+    margin-right:10px;
+}
+.shedule__block{
+    display:flex;
+    color:gray;
+}
+.shedule__description{
+    margin-top:10px;
+    font-size:15px;
+    margin-left:10px;
+    color:rgb(164, 164, 164);
+}
+.shedule__name{
+    color:rgb(50, 33, 137);
+    font-size:30px;
+    margin-left:30px;
+    margin-top:70px;
+    margin-bottom:20px;
+}
+.shedule__form{
+    font-size: 20px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.shedule__text{
+    height:fit-content;
+    box-shadow: #cacaca 0 10px 20px -10px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 18px;
+    opacity: 1;
+    width:100%;
+    outline: 0 solid transparent;
+    border:1px solid rgb(227, 227, 227);
+    border-radius: 6px;
+    margin-bottom:10px;
+}
+.shedule__button{
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+@media(max-width:1210px){
+    .shedule__form{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .shedule__button{
+        align-self: self-end;
+    }
+}
